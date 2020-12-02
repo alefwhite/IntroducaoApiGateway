@@ -1,0 +1,8 @@
+Api Gateway
+Api gateway é uma interface que recebe as chamadas do cliente e direciona para seus sistemas internos,
+torna-se uma porta de entrada para seus clientes exposta a todo momento a grandes quantidades de requisições
+
+
+[ Client ]-> (Api Gateway)-> [ LB ] -> [ Customers] -> [ DB Schema]
+			              -> [ LB ] -> [ Customers] -> [ DB Schema]
+			              -> [ LB ] -> [ Customers] -> [ DB Schema]
